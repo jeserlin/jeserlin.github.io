@@ -1,3 +1,8 @@
 .bg-dustyPink {
   background-color: #f7e6e3 !important;
 }
+
+.border-dustyPink {
+  border-width: 2px;
+  border-color: #f7e6e3 !important;
+}
