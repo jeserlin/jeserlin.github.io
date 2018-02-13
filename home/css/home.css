@@ -1,8 +1,25 @@
+.bg-darkGray {
+  background-color: #C0C0C0 !important;
+}
+
 .bg-dustyPink {
   background-color: #f7e6e3 !important;
 }
 
 .border-dustyPink {
-  border-width: 2px;
+  border-width: 3px;
   border-color: #f7e6e3 !important;
+}
+
+.img-thumbnail-dustyPink {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 5px solid #f7e6e3;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-align-right {
+	text-align: right;
 }
