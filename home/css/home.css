@@ -27,3 +27,8 @@
 .text-align-right {
 	text-align: right;
 }
+
+@font-face {
+  font-family: cartoonBlocks ;
+  src: url(home/font/SCRIPALT.woff);
+}
