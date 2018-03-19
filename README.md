@@ -9,12 +9,13 @@ This website is a dashboard of my portfolio.
 ## works:
 
 ### Realtime Youbike Info.
-Realtime- YouBike information uses Google Map as base.
-It show realtime Youbike data from Data.Taipei.(open data from Taipei government, Taiwan)
+Realtime- YouBike information uses Google Map as base.</br>
+It show realtime Youbike data from Data.Taipei.(open data from Taipei government, Taiwan)</br>
+https://github.com/jeserlin/Realtime-YouBikeInfo
 
 ### Trip Helper
-Trip Helper is a site that you can easily arrange your trip.（Base on google map）
-see details and download project here!
+Trip Helper is a site that you can easily arrange your trip.（Base on google map）</br>
+see details and download project here!</br>
 https://github.com/jeserlin/TripHelper
 
 ### Other projects at work
