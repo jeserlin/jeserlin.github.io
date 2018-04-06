@@ -22,7 +22,6 @@
     }
 }
 
-
 .bg-darkGray {
   background-color: #C0C0C0 !important;
 }
@@ -55,4 +54,10 @@
 
 .width150 {
   width: 150px;
+}
+
+.topic1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fd6766;
 }
