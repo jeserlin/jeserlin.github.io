@@ -48,6 +48,10 @@
   border-top: 5px solid #f7e6e3 !important;
 }
 
+.border-bottom-5-grey {
+  border-bottom: 5px solid #e5e5e5 !important;
+}
+
 .text-align-right {
 	text-align: right;
 }
