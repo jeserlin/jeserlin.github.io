@@ -1,6 +1,10 @@
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 1;
+@media (max-width: 576px) {
+    .embiggen {
+      font-size: 500%;
+      color: white;
+      position:relative;
+      top: -50px;
+      text-shadow: 0 0 40px #ffbab3;
     }
 }
 
@@ -8,10 +12,17 @@
     .card-columns {
         column-count: 2;
     }
+    .embiggen {
+      font-size: 900%;
+      color: white;
+      position:relative;
+      top: -80px;
+      text-shadow: 0 0 40px #ffbab3;
+    }
 }
 
 @media (min-width: 992px) {
-    .card-columns {
+    .card-columns { 
         column-count: 2;
     }
 }
@@ -20,14 +31,6 @@
     .card-columns {
         column-count: 3;
     }
-}
-
-.embiggen {
-  color: white;
-  position:relative;
-  top: -80px;
-  font-size: 4em;
-  text-shadow: 0 0 40px #ffbab3;
 }
 
 .bg-darkGray {
