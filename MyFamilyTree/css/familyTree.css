@@ -1,0 +1,25 @@
+.bg-orange {
+	background-color: #fcd8a2 !important;
+}
+.text-brown {
+	color: #7c4c04 !important;
+}
+.navbar {
+	margin-bottom: 0;
+}
+.hr-pink {
+	border-top: 2px dotted #f8cbcd;
+	padding-top: 2em;
+}
+.btn-orange {
+	color: white;
+	background-color: orange;
+	border-color: orange;
+}
+.custom-file-label {
+	content: attr(data-title);
+}
+.input-group-text , .custom-file-label::after{
+	color: #495057;
+	background-color: #fcd8a2;
+}
