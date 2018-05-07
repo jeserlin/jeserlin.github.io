@@ -10,7 +10,7 @@ This website is a dashboard of my portfolio.
 
 ### My Family tree
 My Family tree is a site that you can upload your family members' photo to make a svg family tree.
-https://jeserlin.github.io/MyFamilyTree/myFamilyTree.html
+https://jeserlin.github.io/MyFamilyTree/myFamilyTree
 
 
 ### Realtime Youbike Info.
