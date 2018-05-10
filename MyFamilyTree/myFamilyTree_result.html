@@ -6,11 +6,6 @@
 	<!-- CSS -->
     <link rel="stylesheet" href="plugin/bootstrap-4/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/familyTree.css">
-    <!-- JS -->
-    <script src="plugin/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
-    <script defer src="plugin/fontawsome-5.0.6/fontawesome-all.min.js"></script>
-    <script src="js/familyTree.js"></script>
-    <script src="js/svgPosition.js"></script>
 </header>
 <body>
 	<nav class="navbar navbar-light bg-orange">
@@ -29,7 +24,13 @@
 			</svg>
 		</div>
 	</div>
-	<script type="text/javascript">
+	<!-- JS -->
+    <script src="plugin/jQuery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script defer src="plugin/fontawsome-5.0.6/fontawesome-all.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/familyTree.js"></script>
+    <script src="js/svgPosition.js"></script>
+	<script type="text/babel">
     	$(document).ready(function() {
     		var data = sessionStorage.getItem("data");
     		data = JSON.parse(data);
@@ -38,5 +39,6 @@
     		}
     	});
     </script>
+
 </body>
 </html>
